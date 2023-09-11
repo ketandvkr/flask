@@ -1,0 +1,159 @@
+/* ----------------------------------------------------------------------------------- */
+/* Laying out the structure */
+
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing:border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Laying out the Yellow Container Structure and aligning and styling simultaneously*/
+
+.yellow-bg {
+    background: #fcdb00;
+    padding: 61px 0 107px 0;
+}
+
+.yellow-container {
+    width:935px;
+    margin:0 auto;
+}
+
+.header-yellow {
+    margin:0 0 61px 0;
+}
+
+.logo-wrapper{
+    float: left;
+    margin:0 431px 0 0;
+}
+
+.menu-wrapper {
+    padding:7px 0 0 0;
+}
+
+.menu-wrapper  li{
+    display: inline;
+    margin:0 73px 0 0;
+}
+
+.menu-wrapper li:last-child {
+    margin:0;
+}
+
+.menu-wrapper a {
+    text-decoration: none;
+    color: #010101;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.left-content-yellow-wrapper {
+    width:397px;
+    float:left;
+    margin:0 177px 0 0;
+    padding:73px  0 41px 0;
+}
+
+.content-information h1{
+    color:#010101;
+    font-size:32px ;
+    font-weight: 700;
+}
+
+.content-information h2 {
+    color:#313841;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.content-information p {
+    color: #555555;
+    font-size: 16px;
+	font-weight:400;
+}
+
+.content-information h1,
+.content-information h2 {
+    padding:0 0 17px 0;
+}
+
+.content-information p {
+    padding:0 0 40px 0;
+}
+
+.content-download-icons img {
+    padding:0 38px 0 0;
+}
+
+/* Laying Out the White Container Structure and aligning and styling simultaneously */
+
+.white-container {
+    width:950px;
+    margin:0 auto 97px;
+    text-align:center;
+    padding:110px 0 97px 0;
+    color:aqua;
+}
+
+.header-white {
+    width: 760px;
+    margin: 0 auto 88px;
+}
+
+.header-white h1 {
+    padding:0 0 10px 0;
+    font-size: 32px;
+    color: #010101;
+    font-weight: 700;
+}
+
+.header-white p {
+    font-weight: 400;
+    color:#313841;
+    font-size: 20px;
+}
+
+.palette-white {
+    margin: 0 0 80px;
+    width:930px;
+    float: left;
+}
+
+.palette-white div:last-child{
+    margin:0;
+}
+
+.card-features-white {
+    width: 282px;
+    margin:0 42px 0 0;
+    float: left;
+}
+
+.feature-icons {
+    width:52px;
+    float: left;
+}
+
+.feature-content {
+    width:206px;
+    text-align: left;
+    float: right;
+}
+
+.feature-content h1 {
+    font-size: 22px;
+    color:#010101;
+    padding:0 0 10px 0;
+}
+
+.feature-content p {
+    font-size: 16px;
+    color: #898989;
+}
+
+.feature-content h1,
+.feature-content p {
+    font-weight: 400;
+}

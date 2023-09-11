@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout-9</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="yellow-bg">
+        <div class="yellow-container">
+            <div class="header-yellow">
+                <div class="logo-wrapper">
+                    <a href="/"><img src="{{ url_for('static', filename='images/logo.png')}}" alt="Brand Logo for Tinyone"></a>
+                </div>
+                <div class="menu-wrapper">
+                    <ul>
+                        <li><a href="/feature">Features</a></li>
+                        <li><a href="/support">Support</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/index">index</a></li>                       
+                    </ul>
+                </div>
+            </div>
+            <div class="content-yellow">
+                <div class="left-content-yellow-wrapper">
+                    <div class="content-information">
+                    <h1>Inspire your inspiration</h1>
+                    <h2>Simple to use for your app, products<br> showcase and your inspiration</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                    </div>
+                    <div class="content-download-icons">
+                        <img src="{{ url_for('static', filename='images/icon-fa-apple.png')}}" alt="Download icon for the Apple">
+                        <img src="{{ url_for('static', filename='images/icon-fa-android.png')}}" alt="Download icon for the Android">
+                        <img src="{{ url_for('static', filename='images/icon-fa-windows.png')}}" alt="Download icon for the Windows">
+                    </div>
+                </div>
+                <div class="ipad-white-mini">
+                    <img src="{{ url_for('static', filename='images/ipad-mini-white-facing.png')}}" alt="Product picture of the IPad white facing brand logo up-front">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="white-container">
+        <div class="header-white">
+            <h1>Tinyone Features</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+        </div>
+        <div class="palette-white">
+            <div class="card-features-white">
+                <div class="feature-icons">
+                    <img src="{{ url_for('static', filename='images/white-container/icon-fully-responsive.png')}}" alt="Icon for Fully Responsive feature">
+                </div>
+                <div class="feature-content">
+                    <h1>Fully Responsive</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+            </div>
+            <div class="card-features-white">
+                <div class="feature-icons">
+                    <img src="{{ url_for('static', filename='images/white-container/icon-fully-layered-psd.png')}}" alt="Icon for Fully layered PSD support feature">
+                </div>
+                <div class="feature-content">
+                    <h1>Fully Layered PSD</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+            </div>
+            <div class="card-features-white">
+                <div class="feature-icons">
+                    <img src="{{ url_for('static', filename='images/white-container/icon-font-awesome-icons.png')}}" alt="Icon for Icon-Font awesome customizations feature">
+                </div>
+                <div class="feature-content">
+                    <h1>Font Awesome Icons</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="palette-white">
+            <div class="card-features-white">
+                <div class="feature-icons">
+                    <img src="{{ url_for('static', filename='images/white-container/icon-html3-css3.png')}}" alt="Icon for HTML3 and CSS3 support feature">
+                </div>
+                <div class="feature-content">
+                    <h1>HTML3 & CSS3</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+            </div>
+            <div class="card-features-white">
+                <div class="feature-icons">
+                    <img src="{{ url_for('static', filename='images/white-container/icon-email-template.png')}}" alt="Icon for email template support feature">
+                </div>
+                <div class="feature-content">
+                    <h1>Email Template</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+            </div>
+            <div class="card-features-white">
+                <div class="feature-icons">
+                    <img src="{{ url_for('static', filename='images/white-container/icon-free-to-download.png')}}" alt="Icon for free to download and available support">
+                </div>
+                <div class="feature-content">
+                    <h1>Free to download</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
